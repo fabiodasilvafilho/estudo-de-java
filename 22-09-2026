@@ -1,0 +1,15 @@
+public class Main{
+	public static void main(String[] args) {
+		String nome;
+		String[] coisas;
+		
+		nome = "Pop Legau";
+		coisas = new String[25];
+		
+		coisas[0] = "Pop Legau";
+		coisas[1] = "Sopa";
+		for(int i; i < 25; i++){
+		    System.out.printf("%d %s", i, coisas);
+		}
+	}
+}
